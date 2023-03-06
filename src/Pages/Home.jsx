@@ -21,7 +21,7 @@ const API = '1b0b82bb0a62e61b3dd408ab1846beb7';
 
 const Home = () => {
   const [data, setData] = useState(null);
-  const [location, setLocation] = useState('Pontianak');
+  const [location, setLocation] = useState('Malang');
   const [inputValue, setInputValue] = useState('');
   const [animate, setAnimate] = useState(false);
   const [loading, setLoading] = useState(false);
